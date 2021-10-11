@@ -1,6 +1,7 @@
 # Eduzz Fullstack Developer
 
-- https://www.eduzz.com/
+- Sobre a empresa Eduzz: https://www.eduzz.com/
+- Sobre o bootcamp: https://web.digitalinnovation.one/track/eduzz-fullstack-developer?tab=path
 
 
 
