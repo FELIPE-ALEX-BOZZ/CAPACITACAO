@@ -12,5 +12,5 @@
 - ![image-20211011220057965](C:\Users\Usuário\AppData\Roaming\Typora\typora-user-images\image-20211011220057965.png)
 - Melhor entendimento sobre Box model.
 - https://developer.mozilla.org/pt-BR/
-- 
+- Prestar atenção em se a fonte possui Italico, por exemplo, pode evitar problemas e perdas de tempo.
 
