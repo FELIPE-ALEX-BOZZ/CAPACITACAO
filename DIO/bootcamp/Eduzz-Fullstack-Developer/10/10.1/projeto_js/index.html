@@ -8,10 +8,34 @@
 
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body onload="carregada();">
 	<h1>Projeto JS</h1>
-	<script type="text/javascript">
-		boasvindas();
-	</script>
+	<button 
+		type="button"
+		onclick="botao();">
+		Clique no botão
+	</button>
+	<p id="agradecimento"></p>
+		<button 
+		type="button"
+		onclick="redirecionar();">
+		Redirecionar
+	</button>
+	<p id="troca-cor"
+		
+		onmouseover="trocarCor(this);"
+		onmouseout="voltaCor(this);">
+			Clique para trocar a cor do texto
+	</p>
+	<p 
+		onmouseover="trocarCor(this);"
+		onmouseout="voltaCor(this);">
+			Outro link qualquer para testar o trocador de cor
+	</p>
+	<select onchange="selecao(this);">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
 </body>
 </html>

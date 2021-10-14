@@ -1,13 +1,41 @@
 
+function selecao(elemento){
+	alert(elemento.value);
+}
+function carregada(){
+	alert("página carregada");
+}
+function voltaCor(elemento){
+	//document.getElementById('troca-cor').style.color = '#000';
+	elemento.style.color = '#000';
+}
+function trocarCor(elemento){
+	//document.getElementById('troca-cor').style.color = '#FF0000';
+	elemento.style.color = '#FF0000';
+}
+function redirecionar(){
+	//window.open("https://www.google.com.br"); // abre em outra aba
+	window.location.href = "https://www.google.com.br"; //na mesma página
+}
+function botao(){
+	document.getElementById('agradecimento').innerHTML = "Obrigado por clicar";
+	//alert("obrigado por clicar");
+}
+/*
+//funçoes
+function exemplo(){
+	alert("exemplo de msg");
+}
+
 
 var visitante = "Felipe";
 alert(visitante);
 console.log(visitante);
 
-/*function boasvindas(){
+function boasvindas(){
 	let visitante = "Felipe Alex Bozz",
 	alert(visitante);
-}*/
+}
 
 //vector
 var lista = ["Bill","Lála","Pequeno"]; //criando lista
@@ -44,5 +72,6 @@ while(counter<5){
 	console.log(counter);
 	counter++
 }
+*/
 
 
