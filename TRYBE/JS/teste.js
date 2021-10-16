@@ -77,3 +77,42 @@ function ehPalindromo(palavra) {
     }
     
 }*/
+
+/*teste triplique as chances
+
+function tripleTheChances(chances) {
+    // Write your code here
+
+       /*chances.sort(function compare(a, b){
+        if (a < b) return -1;
+        if (a > b) return 1;
+        return 0;
+    }); *opcional
+ 
+    var array = [];
+    for(var i=0;i<chances.length;i++){
+        
+        array.push(chances[i]*3);
+        
+        
+    }return array;
+}*/
+
+/* TESTE: CONTA LETRA
+
+function vezesLetraAparece(frase, letra) {
+    // Escreva seu código aqui
+    var contaLetra = 0;
+    var fraseLista = frase.split('');
+    
+    for(var i=0;i<fraseLista.length;i++){
+        if(letra == fraseLista[i]){
+        contaLetra++;
+        } 
+    //console.log(fraseLista[i]);
+    }return contaLetra;
+    
+
+}
+
+*/
