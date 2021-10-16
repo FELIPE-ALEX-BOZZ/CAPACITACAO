@@ -1,6 +1,7 @@
+// teste primos em um intervalo
 
-function teste(n){
-	alert(n);
+function teste(num){
+	alert(num);
 }
 
 function buscaNumeroPrimos(n) {
@@ -14,12 +15,12 @@ function buscaNumeroPrimos(n) {
     	console.log("Divisor: "+divisores);
     	while(contador<n){
     		
-    		//console.log("----Contador: "+contador+" x "+divisores);
     		if(divisores % contador == 0){
     			contaZero ++
     			console.log("------------é primo: "+divisores+" x "+contador + "=" + (divisores % contador == 0));
     			
     		}
+
     		contador++;
     	}
     	
@@ -35,14 +36,44 @@ function buscaNumeroPrimos(n) {
 
     	divisores++;
     }
-	    
-	    	    
 
-    //}
-	    
-     
+	//console.log(numerosPrimos);
 
-	console.log(numerosPrimos);
- 	//console.log(contador);
 }
-// fim do seu código
+
+// teste se uma palavra é palíndromo alternativo
+
+function ehPalindromo(palavra) {
+    palavra = palavra.toLowerCase();
+    var palindromo = palavra.split('');
+    palindromo.reverse();
+    palindromo = palindromo.join('');
+    
+    if (palindromo == palavra) {
+
+        console.log("SIM, SOU UM PALÍNDROMO");
+    }else{
+        console.log("INFELIZMENTE, NÃO SOU UM PALÍNDROMO");
+    }
+
+    console.log("Palavra: "+ palavra + " Inverdia é: "+palindromo); 
+}
+
+/* resposta mais funcional
+
+function ehPalindromo(palavra) {
+  
+   var palindromo = "";
+
+    for(var index = palavra.length - 1; index >= 0; index--) {
+      console.log("inserindo: "+palavra[index]+" em palindromo = "+ palindromo);
+      palindromo += palavra[index]
+    }
+    console.log("Resultado é: "+palindromo);
+    if (palavra == palindromo) {
+      console.log("SIM, SOU UM PALÍNDROMO");
+    } else {
+     console.log("INFELIZMENTE, NÃO SOU UM PALÍNDROMO");
+    }
+    
+}*/
