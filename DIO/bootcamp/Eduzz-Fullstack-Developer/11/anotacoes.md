@@ -18,11 +18,14 @@
 - Como instalar: https://www.youtube.com/watch?v=Jx8c-jrqttU
 - Utilizar extensões no VS Code
   - Live Server
-  - 
-
+  - ![grab-landing-page](https://github.com/winnie1312/grab/blob/master/grab-landingpage-winnie.gif)
+  
+- https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLElement
 
 
 **Complementos:**
+
+![grab-landing-page](https://github.com/winnie1312/grab/blob/master/grab-landing-page.gif)
 
 https://www.youtube.com/watch?v=Z0RlhHuw6hk
 Curso TypeScript do Básico ao avançado - Tipagem de Dados #01
@@ -33,4 +36,6 @@ Curso TypeScript do Básico ao avançado - Tipagem de Dados #01
   - Posso atribuir tipagem à uma variável ex.: texto: string;
   - Posso utilizar o método constructor(){};
   - templateString (concatenação de string com uma nova função)
+
+![](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif)
 
