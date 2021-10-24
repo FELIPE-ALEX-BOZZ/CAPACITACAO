@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JOGO DA MEMÓRIA</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="quadrado" id="quadrado1">
+           <P>Genius era um brinquedo muito popular na década de 1980 distribuído pela Brinquedos Estrela. O brinquedo buscava estimular a memorização de cores e sons. Com um formato semelhante a um OVNI, possuía botões coloridos que emitiam sons harmônicos e se iluminavam em seqüência. Cabia aos jogadores repetir o processo sem errar.</P>
+           <span>Fonte: Wikipedia</span>
+        </div>
+ 
+        <p>Exercício prático de programação: HTML/CSS/JS</p>
+
+        <div id="titulo">
+            <h1>Jogo da Memória baseado em <a href="https://pt.wikipedia.org/wiki/Genius_(jogo)" target="_blank" onmouseover="mostraTexto('quadrado1');" onmouseout="ocultaTexto('quadrado1');" > Genius Game</a></h1>
+        </div>
+
+        <p>Protótipo: 1.0</p>
+            
+        <h3>Por: Felipe Alex Bozz</h3>
+               
+        <div class="main-game">
+            <div class="genius">
+                <div class="blue"></div>
+                <div class="yellow"></div>
+                <div class="green"></div>
+                <div class="red"></div>
+            </div>
+        </div>
+        <div class="rotape">
+            <h4>
+                <button onclick="document.location.reload(true);">Reiniciar jogo</button>
+            </h4>
+        </div>
+        <script src="js/script.js" async defer></script>
+    </body>
+</html>
