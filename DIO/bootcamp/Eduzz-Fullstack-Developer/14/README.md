@@ -12,10 +12,7 @@
 
 https://moodlelab.felipebozz.com.br/GAME/DIO/GENIUS/
 
-<div>  
-<iframe id="inlineFrameExample"       title="Inline Frame Example"       width="700"       height="600"       src="https://moodlelab.felipebozz.com.br/GAME/DIO/GENIUS/"> 
-</iframe> 
-</div>
+![grab-landing-page](https://moodlelab.felipebozz.com.br/GAME/DIO/GENIUS/img/folder.PNG)
 
 
 
