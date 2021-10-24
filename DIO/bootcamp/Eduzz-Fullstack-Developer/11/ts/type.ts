@@ -105,11 +105,38 @@ Aqui encontraremos todas as propriedades que este tipo fornece.d
 Exemplo: 
 
 */
-var input = document.getElementById('input') as HTMLInputElement;
+/*var input = document.getElementById('input') as HTMLInputElement;
 
 var inputs = input;
 
 inputs.addEventListener('input', (event) => {
     const i = event.currentTarget as HTMLInputElement;
     console.log(i.value);
-});
+});*/
+
+//211023 
+/*interface IUsuario{
+    id: string;
+    email: string;
+}
+interface IAdmin extends IUsuario{
+    cargo: 'gerente' | 'coordenador' | 'supervisor';
+}
+
+function redirection(usuario:IAdmin | IUsuario){
+
+}*/
+//11C Definir as variáveis
+/*interface Cachorro{
+    nome:string;
+    idade:number;
+    parque_favorito?:string; //ponto de interrogação torna o valor opcional
+}
+
+const meuCachorro: Cachorro = {
+    nome:'bill',
+    idade:3,
+    parque_favorito:'bosque'
+}*/
+
+//Usando biblioteca externa
