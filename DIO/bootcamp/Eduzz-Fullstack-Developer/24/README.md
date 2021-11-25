@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Criando um front-end totalmente componentizado na prática com ReactJS
+
+![plot](https://moodlelab.felipebozz.com.br/directorio/img/dio/24/resultado.PNG)
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
