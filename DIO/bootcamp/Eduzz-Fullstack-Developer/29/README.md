@@ -3,6 +3,7 @@
 - Professor: Diana Martine Matias Pontes
 - https://www.linkedin.com/in/renanjpaula/
 - https://github.com/RenanJPaula
+- https://github.com/RenanJPaula/dio-node-user-authentication-api
 
 
 
@@ -83,6 +84,24 @@ bora usar:
   `./dist`
 
 22 - Depois de salvar, retiro ./ e confiro se as pastas estão escurecidas.
+
+23 - Agora precisamos instalar o npm install --save express
+
+- também instalaremos: npm install --save-dev @types/express
+
+24 - sempre confira as dependências instaladas no arquivo: package.json.
+
+25 - express é um gerenciador de rotas que nos permite receber e enviar informações via HTTP.
+
+26 - instalar a biblioteca: npm install --save-dev ts-node-dev
+
+27 - criação da pasta routes para dividir o problema em pequenas partes.
+
+28 - para melhorar o status code: npm install --save http-status-codes
+
+
+
+
 
 
 
