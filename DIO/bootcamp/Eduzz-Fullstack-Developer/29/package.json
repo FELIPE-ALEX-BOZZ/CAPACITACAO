@@ -1,0 +1,24 @@
+{
+  "name": "bozzms-authentication",
+  "version": "1.0.0",
+  "description": "Microserviço para autenticação e validação",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "dio",
+    "bozz",
+    "aula",
+    "ferramenta",
+    "microserviço"
+  ],
+  "author": "Felipe Alex Bozz",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "typescript": "^4.5.2"
+  }
+}
