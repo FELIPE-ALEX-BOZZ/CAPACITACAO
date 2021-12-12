@@ -1,0 +1,11 @@
+.navbar{
+    background-color: #c94508;
+}
+/*para que o camando de alteração de cor funcione, primeiro será necessário remover  "bg-light"*/
+.sobre{
+    background-color: #B2BABB;
+}
+.margin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
