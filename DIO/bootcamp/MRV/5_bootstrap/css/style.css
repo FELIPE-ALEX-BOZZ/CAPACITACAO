@@ -1,11 +1,43 @@
+body{
+    height: 100vh;
+}
 .navbar{
     background-color: #c94508;
+}
+section{
+    height: 100vh;
 }
 /*para que o camando de alteração de cor funcione, primeiro será necessário remover  "bg-light"*/
 .sobre{
     background-color: #B2BABB;
 }
+section#sobre{
+    background-color: red;
+    height: 100vh;
+}
+section#parceiros{
+    background-color: yellow;
+    height: 100vh;
+}
+section#viagens{
+    background-color: blue;
+    height: 100vh;
+}
+.viagens{
+    background-color: #F4F6F6;
+}
+.parceiros{
+
+}
 .margin{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.bg-footer{
+    background-color: #373635;
+}
+footer{
+    padding: 15px;
+    margin: 0;
+    color:#F8F4F0;
 }

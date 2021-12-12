@@ -34,4 +34,6 @@ Github:
    1. Se desejar, simplifique o nome da pasta do bootstrap.
    1. Se desejar, inclua a pasta das imagens na pasta do projeto.
 2. Carregue a pasta do projeto no editor de texto.
-3. 
+3. Crie o arquivo index.html, com as referências do bootstrap, css, js, etc.
+3. Acesse a documentação do bootstrap e consulte as cores do HTML Color Codes, quando necessário.
+3. Faça testes para visualizar os comportamentos renderizados.
