@@ -41,3 +41,28 @@ footer{
     margin: 0;
     color:#F8F4F0;
 }
+dl{color:red}
+.facevermelha{
+    background-color: red;
+    width: 66px;
+    height: 66px;
+    border: 1px solid grey;
+}
+.faceamarela{
+    background-color: yellow;
+    width: 66px;
+    height: 66px;
+    border: 1px solid grey;
+}
+
+.faceazul{
+    background-color: blue;
+    width: 66px;
+    height: 66px;
+    border: 1px solid grey;
+}
+#cubo{
+    width: 200px;
+    height: 200px;
+    color:turquoise;
+}
